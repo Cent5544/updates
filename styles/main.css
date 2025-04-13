@@ -1,0 +1,127 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87CEEB; /* Doraemon's blue color */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #FFD700; /* Doraemon's bell color */
+    padding: 20px;
+    border-bottom: 5px solid #FF4500; /* Doraemon's bell outline */
+}
+
+header h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#deployment-section {
+    background-color: #FFFFFF; /* White background for content */
+    border: 2px solid #FF4500; /* Doraemon's red accent */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+
+#status-message {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    background: #e8491d;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: #c7371a;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FF4500; /* Doraemon's red accent */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #FF6347; /* Slightly lighter red on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #deployment-section {
+        padding: 10px;
+    }
+}
+#deploy-link {
+    text-decoration: none;
+    color: #FF4500; /* Doraemon's red accent */
+    font-weight: bold;
+}
+
+#deploy-link:hover {
+    text-decoration: underline;
+    color: #FF6347; /* Slightly lighter red on hover */
+}
+
+#recent-version-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #FFFFFF; /* White background */
+    border: 2px solid #FF4500; /* Doraemon's red accent */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#recent-version {
+    font-size: 1.2rem;
+    color: #333;
+}
